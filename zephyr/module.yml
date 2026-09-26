@@ -1,4 +1,5 @@
 name: zmk-keyboard-mze10
   build:
+    kconfig: Kconfig
     settings:
-      board_root:
+      board_root: .
