@@ -1,0 +1,10 @@
+file_format: "1"
+id: mze10
+name: MZE10
+type: shield
+url: 
+requires: [seeeduino_xiao_ble]
+exposes: 
+features:
+  - keys
+  - studio

@@ -1,0 +1,5 @@
+if SHIELD_MZE10
+
+    config ZMK_KEYBOARD_NAME
+        default "MZE10"
+endif
