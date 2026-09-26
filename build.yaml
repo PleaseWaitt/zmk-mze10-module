@@ -17,5 +17,5 @@
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio
 include:
-  - board: xiao_ble//zmk 
+  - board: xiao_ble
     shield: mze10
