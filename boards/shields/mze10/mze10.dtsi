@@ -10,7 +10,6 @@
 / {
 	chosen {
 		zmk,kscan = &kscan0;
-		zmk,kscan = &side_band_behavior_triggers;
 		zmk,physical-layout = &physical_layout0;
 	};
 
