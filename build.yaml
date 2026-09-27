@@ -18,4 +18,4 @@
 #     artifact-name: corne_left_with_studio
 include:
   - board: seeeduino_xiao_ble
-    shield: mze10
+    shield: mze10 rgbled_adapter
