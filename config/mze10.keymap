@@ -28,14 +28,14 @@
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&kp C_VOL_UP>, <&bt BT_SEL 1>, <&bt BT_SEL 2>, <&bt BT_SEL 3>;
+            bindings = <&kp C_VOL_UP>, <&kp C_VOL_UP>;
         };
         td1: tap_dance_1 {
           compatible = "zmk,behavior-tap-dance";
           label = "TAP_DANCE_1";
           #binding-cells = <0>;
           tapping-term-ms = <300>;
-          bindings = <&kp C_PREV>, <&kp C_REWIND>;
+          bindings = <&kp C_PREV>, <&bt BT_SEL 0>, <&bt BT_CLR>;
         };
         td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
@@ -49,14 +49,14 @@
           label = "TAP_DANCE_3";
           #binding-cells = <0>;
           tapping-term-ms = <300>;
-          bindings = <&kp C_NEXT>, <&kp C_FF>, <&studio_unlock>;
+          bindings = <&kp C_NEXT>, <&bt BT_NXT;
         };
         td4: tap_dance_4 {
           compatible = "zmk,behavior-tap-dance";
           label = "TAP_DANCE_4";
           #binding-cells = <0>;
           tapping-term-ms = <300>;
-          bindings = <&kp C_VOL_DN>, <&bt BT_SEL 0>, <&bt BT_CLR>;
+          bindings = <&kp C_VOL_DN>, <&studio_unlock;
         };
     };
      keymap {
@@ -68,11 +68,11 @@
                  label= "BASE"              ;
  // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
  //              ┏━━━━━━━━━━━━┓
- //              ┃   Vol Up   ┃
- //┏━━━━━━━━━━━━━┣━━━━━━━━━━━━┫━━━━━━━━━━━━━┓
- //┃  Previous   ┃ Multi-Play ┃    Next     ┃
- //┗━━━━━━━━━━━━━┣━━━━━━━━━━━━┫━━━━━━━━━━━━━┛
- //              ┃  Vol Down  ┃ 
+ //              ┃   Vol Up     ┃
+ //┏━━━━━━━━━━━┣━━━━━━━━━━━━┫━━━━━━━━━━━━━┓
+ //┃  Previous   ┃  Multi-Play  ┃     Next      ┃
+ //┗━━━━━━━━━━━┣━━━━━━━━━━━━┫━━━━━━━━━━━━━┛
+ //              ┃   Vol Down   ┃ 
  //              ┗━━━━━━━━━━━━┛
  //
   bindings = <
